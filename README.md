@@ -22,6 +22,8 @@ requirements:
 * mpv
 * fzf
 * ggrep (for mac only)
+* coreutils (for mac only)
+* yt-dlp (only for downlaoding videos)
 
 ```bash
 git clone https://github.com/por-cli/por-cli.git
@@ -38,6 +40,7 @@ requirements:
 * mpv-android
 * chafa
 * fzf
+* yt-dlp (only for downlaoding videos)
 
 ```bash
 git clone https://github.com/por-cli/por-cli.git
@@ -52,7 +55,9 @@ chmod +x /data/data/com.termux/files/usr/bin/por-cli
 por-cli [OPTIONS]
     Options:
         -r            Resume & pick from history
-        -p            use proxy
+        -p            Use proxy
+        -t            Play video in terminal (only work on terms with kitty graphics protocol)
+        -d            Download video 
         -h, --help    Show this help menu
 ```
 
@@ -64,6 +69,7 @@ por-cli [OPTIONS]
 * fzf
 * chafa 
 * wget
+* yt-dlp (only for downlaoding videos)
 
 ## Patch for arm based Linux
 
